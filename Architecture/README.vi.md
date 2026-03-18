@@ -11,6 +11,7 @@ Các pattern kiến trúc iOS, modularization và dependency injection.
 - [MVC](./MVC.vi.md) — ưu điểm, hạn chế, Massive View Controller
 - [MVVM](./MVVM.vi.md) — trách nhiệm của ViewModel, data binding
 - [Clean Architecture](./CleanArchitecture.vi.md) — các tầng, dependency rule, use case
+- [Coordinator Pattern](./Coordinator.vi.md) — ownership của navigation, điều phối flow
 - [Dependency Injection](./DependencyInjection.vi.md) — constructor injection, fakes, testability
 - [Modularization](./Modularization.vi.md) — feature modules, build time, ownership
 

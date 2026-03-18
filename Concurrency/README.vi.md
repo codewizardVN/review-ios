@@ -4,7 +4,7 @@
 
 [← Quay lại trang chủ](../README.vi.md)
 
-Swift Concurrency hiện đại, GCD, Combine và actor isolation.
+Swift concurrency hiện đại và actor isolation cho app iOS production.
 
 ## Chủ đề
 

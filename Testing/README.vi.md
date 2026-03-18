@@ -9,6 +9,7 @@ Unit testing, mocking, snapshot testing và kiến trúc có thể kiểm thử.
 ## Chủ đề
 
 - [Unit Tests](./UnitTests.vi.md) — XCTest, Given/When/Then, async testing
+- [UI Tests](./UITests.vi.md) — high-value flow, độ ổn định, launch setup
 - [Mocking và Test Doubles](./Mocking.vi.md) — stubs, mocks, fakes, spies
 - [Snapshot Tests](./SnapshotTests.vi.md) — kiểm tra visual regression, swift-snapshot-testing
 - [Thiết kế có thể kiểm thử](./TestableDesign.vi.md) — các nguyên tắc giúp code dễ test

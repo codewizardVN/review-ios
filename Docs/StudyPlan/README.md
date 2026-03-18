@@ -14,6 +14,7 @@ This study plan is designed to move from technical foundations to senior-level t
 6. Day 6: Testing
 7. Day 7: Performance and Debugging
 8. Day 8: Senior Review and Interview Scenarios
+9. Day 9: UIKit and App Lifecycle
 
 ## How To Use
 

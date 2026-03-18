@@ -4,7 +4,7 @@
 
 [← Back to root](../README.md)
 
-Modern Swift concurrency, GCD, Combine, and actor-based isolation.
+Modern Swift concurrency and actor-based isolation for production iOS apps.
 
 ## Topics
 

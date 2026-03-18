@@ -121,9 +121,10 @@ Gợi ý cách học:
 
 1. Ôn lại `Swift core` trước.
 2. Chuyển sang `SwiftUI` và state management.
-3. Review architecture và dependency management.
-4. Luyện bài toán networking, concurrency, testing.
-5. Kết thúc bằng system design và code review scenarios.
+3. Review UIKit lifecycle và navigation fundamentals.
+4. Review architecture và dependency management.
+5. Luyện bài toán networking, concurrency, testing.
+6. Kết thúc bằng performance, system design, và code review scenarios.
 
 ## Checklist ôn tập nhanh
 

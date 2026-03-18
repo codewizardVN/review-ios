@@ -10,6 +10,8 @@ Thiết kế networking layer, URLSession, Codable, caching và offline-first pa
 
 - [URLSession](./URLSession.vi.md) — async/await API, configuration, testability
 - [Codable](./Codable.vi.md) — `CodingKeys`, DTOs vs domain models, `JSONDecoder`
+- [Mapping Request và Response](./RequestResponseMapping.vi.md) — DTO, domain model, boundary chuyển đổi
+- [Pagination](./Pagination.vi.md) — cursor vs offset, paging state, tránh duplicate load
 - [Chiến lược Cache](./CacheStrategy.vi.md) — `URLCache`, `NSCache`, disk cache
 - [Retry, Timeout và Cancellation](./RetryTimeout.vi.md) — exponential backoff, cooperative cancellation
 - [Offline-First Design](./OfflineFirst.vi.md) — `NWPathMonitor`, optimistic UI, sync queue

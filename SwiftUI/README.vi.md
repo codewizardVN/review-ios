@@ -10,6 +10,7 @@ Vòng đời View, quản lý state, navigation và khả năng tương tác v�
 
 - [Vòng đời View](./ViewLifecycle.vi.md) — identity, `onAppear`, `task` modifier
 - [Quản lý State](./StateManagement.vi.md) — `@State`, `@Binding`, `@StateObject`, `@ObservedObject`, `@EnvironmentObject`
+- [Dependency Injection trong SwiftUI](./DependencyInjection.vi.md) — initializer injection, environment value, ownership
 - [Navigation](./Navigation.vi.md) — `NavigationStack`, `NavigationPath`, navigation theo code
 - [Hiệu năng Rendering](./RenderingPerformance.vi.md) — nguyên nhân re-render, `List` vs `LazyVStack`
 - [Tương tác với UIKit](./UIKitInterop.vi.md) — `UIViewRepresentable`, `UIHostingController`

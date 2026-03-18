@@ -8,8 +8,11 @@ Các chủ đề phân biệt senior iOS engineer: code review, refactoring, tec
 
 ## Chủ đề
 
+- [System Design cho iOS Apps](./SystemDesign.vi.md) — boundaries, data flow, reliability
 - [Tư duy Code Review](./CodeReview.vi.md) — cần nhìn vào gì, cách đưa feedback
 - [Chiến lược Refactoring](./Refactoring.vi.md) — khi nào refactor, strangler fig, characterization tests
+- [Backward Compatibility](./BackwardCompatibility.vi.md) — migration, rollout an toàn, hỗ trợ OS cũ
+- [Release Process](./ReleaseProcess.vi.md) — tiêu chí release, smoke test, monitoring
 - [Debug vấn đề Production](./ProductionDebugging.vi.md) — Crashlytics, dSYM, MetricKit
 - [Technical Leadership](./TechnicalLeadership.vi.md) — mentoring, trade-offs, quyết định dưới áp lực
 

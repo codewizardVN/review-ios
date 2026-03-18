@@ -1,4 +1,4 @@
-[English](../README.md) | [Tiếng Việt](../README.vi.md)
+[English](./README.md) | [Tiếng Việt](./README.vi.md)
 
 # UIKit and App Lifecycle
 
@@ -6,19 +6,13 @@ UIKit fundamentals, view controller lifecycle, navigation patterns, and app life
 
 ## Topics
 
-- [ ] App lifecycle (`UIApplicationDelegate`, `SceneDelegate`)
-- [ ] ViewController lifecycle (`viewDidLoad`, `viewWillAppear`, etc.)
-- [ ] Coordinator / Router pattern
-- [ ] Auto Layout (constraints, `UIStackView`, `intrinsicContentSize`)
-- [ ] `UICollectionView` and Diffable Data Source
-- [ ] Deep links, universal links, and notification flows
+- [App Lifecycle](./AppLifecycle.md) — `UIApplicationDelegate`, `UISceneDelegate`, foreground/background transitions
+- [View Controller Lifecycle](./ViewControllerLifecycle.md) — `viewDidLoad`, `viewWillAppear`, `viewDidAppear`
+- [Coordinator and Router](./Coordinator.md) — flow ownership, child coordinators, deep links
+- [Auto Layout](./AutoLayout.md) — constraint priorities, `UIStackView`, intrinsic content size
+- [Collection View and Diffable Data Source](./CollectionViewDiffable.md) — snapshot, identity, reuse
+- [Deep Links, Universal Links, and Notification Flows](./DeepLinks.md) — route parsing, auth gating, deferred navigation
 
-## Key Questions
+## Study Plan
 
-- What is the difference between `viewWillAppear` and `viewDidAppear`?
-- How does the Coordinator pattern solve the massive view controller problem?
-- When should you use `UICollectionView` with Diffable Data Source?
-
-## Status
-
-> Work in progress. Content will be added incrementally.
+→ [Day 9: UIKit and App Lifecycle](../Docs/StudyPlan/Day9_UIKit_AppLifecycle.md)

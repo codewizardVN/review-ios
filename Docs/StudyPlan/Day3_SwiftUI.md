@@ -14,14 +14,17 @@ Understand SwiftUI state flow and view lifecycle.
 - `@ObservedObject`
 - `@StateObject`
 - `@EnvironmentObject`
+- Dependency injection
 - Navigation
 - Rendering performance
+- UIKit interoperability
 
 ## What You Should Be Able To Explain
 
 - When to use each property wrapper
 - Why `@StateObject` matters for object ownership
 - One-way data flow in SwiftUI
+- How to inject dependencies without hiding ownership
 - Common mistakes that cause unnecessary re-renders
 - When bridging to UIKit makes sense
 

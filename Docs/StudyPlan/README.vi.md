@@ -14,6 +14,7 @@ Lộ trình ôn tập này được thiết kế để đi từ nền tảng k�
 6. Day 6: Testing
 7. Day 7: Performance and Debugging
 8. Day 8: Senior Review and Interview Scenarios
+9. Day 9: UIKit và App Lifecycle
 
 ## How To Use
 

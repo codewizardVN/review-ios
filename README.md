@@ -121,9 +121,10 @@ Suggested review flow:
 
 1. Revisit `Swift core` first.
 2. Move to `SwiftUI` and state management.
-3. Review architecture and dependency management.
-4. Practice networking, concurrency, and testing topics.
-5. Finish with system design and code review scenarios.
+3. Review UIKit lifecycle and navigation fundamentals.
+4. Review architecture and dependency management.
+5. Practice networking, concurrency, and testing topics.
+6. Finish with performance, system design, and code review scenarios.
 
 ## Quick Review Checklist
 
