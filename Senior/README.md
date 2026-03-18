@@ -1,26 +1,18 @@
-[English](../README.md) | [Tiếng Việt](../README.vi.md)
+[English](./README.md) | [Tiếng Việt](./README.vi.md)
 
 # Senior-Level Topics
+
+[← Back to root](../README.md)
 
 Topics that distinguish a senior iOS engineer: code review, refactoring, technical leadership, and decision-making.
 
 ## Topics
 
-- [ ] Code review mindset — what to look for, how to give feedback
-- [ ] Refactoring strategy — incremental vs big-bang, strangler fig
-- [ ] Debugging production issues — crash logs, Sentry/Firebase, symbolication
-- [ ] Backward compatibility — `@available`, feature flags, API versioning
-- [ ] Release process — versioning, TestFlight, App Store review, hotfixes
-- [ ] Mentoring and technical ownership
-- [ ] Trade-off analysis in technical decisions
+- [Code Review Mindset](./CodeReview.md) — what to look for, how to give feedback
+- [Refactoring Strategy](./Refactoring.md) — when to refactor, strangler fig, characterization tests
+- [Debugging Production Issues](./ProductionDebugging.md) — Crashlytics, dSYM, MetricKit
+- [Technical Leadership](./TechnicalLeadership.md) — mentoring, trade-offs, decisions under pressure
 
-## Key Questions
+## Study Plan
 
-- How do you approach reviewing a PR from a junior engineer?
-- How do you refactor a legacy codebase without breaking existing behavior?
-- How do you debug a crash that only happens in production?
-- How do you decide between building in-house vs using a third-party library?
-
-## Status
-
-> Work in progress. Content will be added incrementally.
+→ [Day 8: Senior Review and Interview Scenarios](../Docs/StudyPlan/Day8_Senior_Interview.md)

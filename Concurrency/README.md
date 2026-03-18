@@ -1,26 +1,18 @@
-[English](../README.md) | [Tiếng Việt](../README.vi.md)
-
 # Concurrency
+
+[English](./README.md) | [Tiếng Việt](./README.vi.md)
+
+[← Back to root](../README.md)
 
 Modern Swift concurrency, GCD, Combine, and actor-based isolation.
 
 ## Topics
 
-- [ ] `async/await` — structured concurrency, `Task`, `TaskGroup`
-- [ ] `Actor` — data isolation, `@MainActor`, actor reentrancy
-- [ ] `AsyncStream` and `AsyncSequence`
-- [ ] Grand Central Dispatch (GCD) — queues, barriers, deadlocks
-- [ ] `OperationQueue` and dependencies
-- [ ] Combine — publishers, operators, subscriptions, memory management
-- [ ] Bridging between Combine / GCD and async/await
+- [async/await](./AsyncAwait.md) — async functions, bridging from completion handlers
+- [Task and Cancellation](./Tasks.md) — `Task`, `Task.detached`, `TaskGroup`, cooperative cancellation
+- [Actor and MainActor](./Actors.md) — data isolation, actor reentrancy
+- [Structured Concurrency](./StructuredConcurrency.md) — `async let`, task hierarchy, lifecycle
 
-## Key Questions
+## Study Plan
 
-- What is structured concurrency and why does it matter?
-- How does `Actor` prevent data races?
-- When should you use `Task.detached` vs `Task`?
-- How do you avoid threading issues on the main queue?
-
-## Status
-
-> Work in progress. Content will be added incrementally.
+→ [Day 2: Swift Concurrency](../Docs/StudyPlan/Day2_Swift_Concurrency.md)

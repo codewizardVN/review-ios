@@ -1,25 +1,19 @@
-[English](../README.md) | [Tiếng Việt](../README.vi.md)
+[English](./README.md) | [Tiếng Việt](./README.vi.md)
 
 # Performance
+
+[← Back to root](../README.md)
 
 Profiling, optimization, and production performance best practices for iOS apps.
 
 ## Topics
 
-- [ ] Main-thread discipline — blocking UI, `DispatchQueue.main`
-- [ ] Instruments — Time Profiler, Allocations, Leaks, Core Animation
-- [ ] Memory graph debugging — retain cycles, dangling references
-- [ ] Rendering performance — offscreen rendering, `CALayer`, opacity
-- [ ] Startup time — `dylib` loading, `+load`, `+initialize`, pre-warming
-- [ ] Large-list optimization — cell reuse, prefetching, diff-based updates
+- [Main Thread Discipline](./MainThread.md) — blocking UI, `@MainActor`, background work
+- [Memory Leaks and Retain Cycles](./MemoryLeaks.md) — Instruments Leaks, Memory Graph Debugger
+- [Rendering Issues](./RenderingIssues.md) — offscreen rendering, blending, frame budget
+- [Startup Time](./StartupTime.md) — pre-main, post-main, dylib loading
+- [Large List Optimization](./LargeListOptimization.md) — cell reuse, diffable data source, `LazyVStack`
 
-## Key Questions
+## Study Plan
 
-- How do you identify a memory leak using Instruments?
-- What causes offscreen rendering, and how do you fix it?
-- How do you reduce cold launch time in a production app?
-- What strategies improve scroll performance in large lists?
-
-## Status
-
-> Work in progress. Content will be added incrementally.
+→ [Day 7: Performance and Debugging](../Docs/StudyPlan/Day7_Performance_Debugging.md)

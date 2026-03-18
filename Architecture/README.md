@@ -1,27 +1,19 @@
-[English](../README.md) | [Tiếng Việt](../README.vi.md)
+[English](./README.md) | [Tiếng Việt](./README.vi.md)
 
 # Architecture
 
-iOS architecture patterns, modularization, dependency injection, and design principles.
+[← Back to root](../README.md)
+
+iOS architecture patterns, modularization, and dependency injection.
 
 ## Topics
 
-- [ ] MVC — strengths, limitations, and when it's appropriate
-- [ ] MVVM — ViewModel responsibilities, data binding
-- [ ] Clean Architecture — layers, use cases, dependency rule
-- [ ] Modularization — feature modules, core modules, reducing coupling
-- [ ] Dependency injection — manual DI, containers, service locators
-- [ ] Separation of concerns
-- [ ] State-driven UI
-- [ ] Trade-offs between simplicity and scalability
+- [MVC](./MVC.md) — strengths, limitations, Massive View Controller
+- [MVVM](./MVVM.md) — ViewModel responsibilities, data binding
+- [Clean Architecture](./CleanArchitecture.md) — layers, dependency rule, use cases
+- [Dependency Injection](./DependencyInjection.md) — constructor injection, fakes, testability
+- [Modularization](./Modularization.md) — feature modules, build time, ownership
 
-## Key Questions
+## Study Plan
 
-- What are the responsibilities of a ViewModel in MVVM?
-- How does the dependency rule work in Clean Architecture?
-- How do you split a large app into modules without over-engineering?
-- When is MVVM overkill, and when is Clean Architecture justified?
-
-## Status
-
-> Work in progress. Content will be added incrementally.
+→ [Day 4: Architecture](../Docs/StudyPlan/Day4_Architecture.md)

@@ -1,25 +1,19 @@
-[English](../README.md) | [Tiếng Việt](../README.vi.md)
+[English](./README.md) | [Tiếng Việt](./README.vi.md)
 
 # Data and Networking
+
+[← Back to root](../README.md)
 
 Networking layer design, URLSession, Codable, caching, and offline-first patterns.
 
 ## Topics
 
-- [ ] `URLSession` — data tasks, download tasks, configuration
-- [ ] `Codable` — custom encoding/decoding, `CodingKeys`, nested structures
-- [ ] Pagination — cursor-based, offset-based, infinite scroll
-- [ ] Retry / timeout / cancellation strategies
-- [ ] Cache strategy — HTTP caching, in-memory, disk, `NSCache`
-- [ ] Offline-first design
-- [ ] API client design — protocol-based, testable, injectable
+- [URLSession](./URLSession.md) — async/await API, configuration, testability
+- [Codable](./Codable.md) — `CodingKeys`, DTOs vs domain models, `JSONDecoder`
+- [Cache Strategy](./CacheStrategy.md) — `URLCache`, `NSCache`, disk cache
+- [Retry, Timeout, and Cancellation](./RetryTimeout.md) — exponential backoff, cooperative cancellation
+- [Offline-First Design](./OfflineFirst.md) — `NWPathMonitor`, optimistic UI, sync queue
 
-## Key Questions
+## Study Plan
 
-- How do you design a reusable, testable API client?
-- What is the difference between `URLCache` and a custom disk cache?
-- How do you handle token refresh and request retry transparently?
-
-## Status
-
-> Work in progress. Content will be added incrementally.
+→ [Day 5: Networking and Data Flow](../Docs/StudyPlan/Day5_Networking_DataFlow.md)

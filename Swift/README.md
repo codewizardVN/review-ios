@@ -1,26 +1,21 @@
-[English](../README.md) | [Tiếng Việt](../README.vi.md)
-
 # Swift Core
+
+[English](./README.md) | [Tiếng Việt](./README.vi.md)
+
+[← Back to root](../README.md)
 
 Core Swift language features every senior iOS engineer should know deeply.
 
 ## Topics
 
-- [ ] Value types vs reference types (`struct` vs `class`)
-- [ ] ARC, memory management, retain cycles
-- [ ] Protocol-oriented programming
-- [ ] Generics, associated types, opaque types (`some`, `any`)
-- [ ] Error handling (`throws`, `Result`, typed throws)
-- [ ] Access control (`private`, `internal`, `public`, `open`)
-- [ ] Concurrency with `async/await`, `Task`, and `Actor`
+- [Value Types and Reference Types](./ValueTypes.md) — `struct` vs `class`, value semantics vs reference semantics
+- [ARC and Memory Management](./ARC.md) — ARC, retain cycles, `weak` vs `unowned`
+- [Protocol-Oriented Programming](./Protocols.md)
+- [Generics](./Generics.md)
+- [Error Handling](./ErrorHandling.md)
+- [Access Control](./AccessControl.md)
+- [Opaque Types](./OpaqueTypes.md) — `any` vs `some`
 
-## Key Questions
+## Study Plan
 
-- When should you use `struct` over `class`?
-- How does ARC work, and where do retain cycles occur?
-- What is the difference between `some Protocol` and `any Protocol`?
-- How do actors prevent data races?
-
-## Status
-
-> Work in progress. Content will be added incrementally.
+→ [Day 1: Swift Core](../Docs/StudyPlan/Day1_Swift_Core.md)
