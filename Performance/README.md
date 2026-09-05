@@ -13,6 +13,7 @@ Profiling, optimization, and production performance best practices for iOS apps.
 - [Rendering Issues](./RenderingIssues.md) — offscreen rendering, blending, frame budget
 - [Startup Time](./StartupTime.md) — pre-main, post-main, dylib loading
 - [Large List Optimization](./LargeListOptimization.md) — cell reuse, diffable data source, `LazyVStack`
+- [App Size Optimization](./AppSizeOptimization.md) — app thinning, On-Demand Resources, static vs dynamic frameworks
 
 ## Study Plan
 

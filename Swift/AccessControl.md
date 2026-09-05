@@ -12,6 +12,10 @@
 - `public` — visible outside the module, but not subclassable/overridable
 - `open` — visible outside the module and subclassable/overridable
 
+## Practice Questions
+
+- How would you design a KeychainStore struct with the right access levels for its stored items, its public read/write methods, and its internal encrypt helper, and what would break if items were made public?
+
 ## Senior Take
 
 Access control is about API boundaries and reducing misuse, not just hiding implementation details.

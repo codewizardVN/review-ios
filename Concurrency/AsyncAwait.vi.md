@@ -24,6 +24,10 @@ func fetchUser(id: String) async throws -> User {
 }
 ```
 
+## Câu hỏi luyện tập
+
+- Sau khi viết lại function fetchUser dùng completion handler bằng async/await, trong tình huống thực tế nào bạn vẫn cần wrap nó trở lại thành completion-handler API bằng withCheckedThrowingContinuation?
+
 ## Góc nhìn Senior
 
 Tại sao `async/await` dễ bảo trì hơn callback chain: luồng điều khiển là tuyến tính, xử lý lỗi thống nhất qua `throws`, và compiler kiểm tra tính đúng đắn trong quá trình biên dịch.

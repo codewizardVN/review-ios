@@ -24,6 +24,11 @@ Nếu server thêm một field bắt buộc, app version cũ có thể fail tr�
 - Làm sao ship feature mới mà vẫn hỗ trợ app version cũ?
 - Khi nào bạn cần migration thay vì silent fallback?
 
+## Câu hỏi luyện tập
+
+- Bạn ship một feature mới trong khi vẫn hỗ trợ các version app cũ như thế nào?
+- Khi nào bạn cần một migration thay vì một fallback âm thầm?
+
 ## Góc nhìn senior
 
 Compatibility không chỉ là chuyện kỹ thuật. Nó là product work. Một câu trả lời senior tốt sẽ nghĩ tới người dùng thật đang ở build cũ, staged release, và recovery path khi giả định bị sai trong production.

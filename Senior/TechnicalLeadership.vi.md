@@ -31,6 +31,12 @@
 - Nếu có bất đồng về kiến trúc, bạn xử lý như thế nào?
 - Bạn cân bằng technical debt và product delivery như thế nào?
 
+## Câu hỏi luyện tập
+
+- Nếu team muốn ship nhanh nhưng chất lượng code kém, bạn làm gì?
+- Nếu có bất đồng về architecture, bạn xử lý thế nào?
+- Bạn cân bằng giữa technical debt và tiến độ sản phẩm ra sao?
+
 ## Góc nhìn senior
 
 Technical leadership không phải là trở thành lập trình viên giỏi nhất trong team. Đó là nâng cao năng lực của cả team, ra quyết định tốt trong điều kiện không chắc chắn, và giao tiếp rõ ràng với cả engineer lẫn stakeholder.

@@ -20,6 +20,11 @@ Auto Layout là một hệ constraint. Layout ổn định đến từ priority 
 - Vì sao label bị compress ngoài ý muốn?
 - Khi nào nên dùng `UIStackView`, khi nào không?
 
+## Câu hỏi luyện tập
+
+- Tại sao một label bị nén lại ngoài ý muốn?
+- Khi nào nên dùng UIStackView và khi nào không?
+
 ## Góc nhìn senior
 
 Phần lớn lỗi layout không phải vì “Auto Layout bị hỏng”. Chúng là vấn đề về ownership và định nghĩa constraint. Câu trả lời senior nên nối triệu chứng với quy tắc đang xung đột.

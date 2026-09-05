@@ -48,6 +48,11 @@ final class AppCoordinator: AppCoordinating {
 - Khi nào Coordinator hữu ích, và khi nào là over-engineering?
 - Có nên để quyết định navigation trong ViewModel không?
 
+## Câu hỏi luyện tập
+
+- Khi nào Coordinator hữu ích, và khi nào nó là over-engineering?
+- Quyết định navigation có nên nằm trong ViewModel không?
+
 ## Góc nhìn senior
 
 Coordinator hữu ích khi flow bắt đầu phức tạp, có nhiều child journey, hoặc phải phản ứng với event cấp app như authentication và deep link. Với app rất nhỏ, cách đơn giản hơn có thể đã đủ.

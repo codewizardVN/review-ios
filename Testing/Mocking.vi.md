@@ -39,6 +39,11 @@ final class FakeFeedRepository: FeedRepository {
 - Mock khác stub như thế nào?
 - Nên dùng mocking framework hay viết fake thủ công?
 
+## Câu hỏi luyện tập
+
+- Mock khác stub ở điểm nào?
+- Bạn nên dùng mocking framework hay tự viết fake thủ công?
+
 ## Góc nhìn senior
 
 Fake viết tay thường rõ ràng và an toàn hơn mock được sinh tự động. Mocking framework có thể che khuất điều thực sự đang được kiểm tra. Chỉ dùng framework khi fake sẽ quá phức tạp để viết thủ công.

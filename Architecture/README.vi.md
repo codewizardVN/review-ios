@@ -14,6 +14,7 @@ Các pattern kiến trúc iOS, modularization và dependency injection.
 - [Coordinator Pattern](./Coordinator.vi.md) — ownership của navigation, điều phối flow
 - [Dependency Injection](./DependencyInjection.vi.md) — constructor injection, fakes, testability
 - [Modularization](./Modularization.vi.md) — feature modules, build time, ownership
+- [Design Patterns](./DesignPatterns.vi.md) — Factory, Repository, Observer, Strategy, Adapter, lạm dụng Singleton
 
 ## Kế hoạch học
 

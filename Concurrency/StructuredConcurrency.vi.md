@@ -36,6 +36,10 @@ func fetchAll(ids: [String]) async throws -> [Item] {
 }
 ```
 
+## Câu hỏi luyện tập
+
+- Khi nào async let rõ ràng hơn cho một function loadProfile() fetch đồng thời user, posts và followers, và khi nào withThrowingTaskGroup trở nên cần thiết thay thế?
+
 ## Góc nhìn Senior
 
 Structured concurrency không chỉ là tiện ích cú pháp. Nó cung cấp mô hình ownership rõ ràng: task được giới hạn scope, leak khó xảy ra hơn, và cancellation tự động lan truyền. Ưu tiên dùng structured concurrency thay vì `Task { }` không có cấu trúc khi lifetime được giới hạn.

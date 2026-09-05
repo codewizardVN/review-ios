@@ -41,6 +41,11 @@ final class FeedViewModel: ObservableObject {
 - Làm sao nhận biết ViewModel đang trở nên quá lớn?
 - Cái gì thuộc ViewModel vs use case layer?
 
+## Câu hỏi luyện tập
+
+- Bạn nhận ra một ViewModel đang phình to quá mức bằng cách nào?
+- Cái gì thuộc về ViewModel và cái gì thuộc về tầng use case?
+
 ## Góc nhìn Senior
 
 MVVM không tự động có nghĩa là Clean Architecture. ViewModel gọi trực tiếp URLSession vẫn bị tightly coupled. Dùng MVVM cho presentation logic; thêm service/use case layer bên dưới cho business logic.

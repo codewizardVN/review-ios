@@ -23,6 +23,11 @@
 - Tại sao view cứ reload không mong muốn?
 - Nếu list lớn bị lag, bắt đầu debug từ đâu?
 
+## Câu hỏi luyện tập
+
+- Tại sao một view cứ reload liên tục ngoài ý muốn?
+- Nếu một list lớn bị lag, bạn bắt đầu debug từ đâu?
+
 ## Góc nhìn Senior
 
 Câu hỏi đầu tiên luôn là: `@Published` property nào thay đổi và view nào đang observe nó? Dùng SwiftUI rendering instrumentation của Xcode hoặc thêm `let _ = Self._printChanges()` trong `body` để trace re-render khi debug.

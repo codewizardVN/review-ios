@@ -43,6 +43,11 @@ Dùng `@ObservedObject` khi view đáng lẽ phải sở hữu object sẽ khi�
 - Khi nào nên dùng `@StateObject` thay vì `@ObservedObject`?
 - Khi nào `EnvironmentObject` phù hợp, và khi nào là lạm dụng?
 
+## Câu hỏi luyện tập
+
+- Khi nào nên dùng @StateObject thay vì @ObservedObject?
+- Khi nào EnvironmentObject phù hợp, và khi nào là lạm dụng?
+
 ## Góc nhìn Senior
 
 Luồng dữ liệu một chiều: state đi xuống qua binding và environment, events đi lên qua callback hoặc view model method. Giữ nhất quán chiều này ngăn subtle re-render bugs.

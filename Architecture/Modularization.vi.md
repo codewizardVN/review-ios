@@ -25,6 +25,11 @@ Tách app thành các Swift package hoặc target riêng biệt để giảm cou
 - Tiêu chí nào để tách module đầu tiên?
 - Ranh giới module nên chia theo tính năng hay theo tầng?
 
+## Câu hỏi luyện tập
+
+- Bạn dùng tiêu chí gì để tách module đầu tiên?
+- Ranh giới module nên tách theo feature hay theo layer?
+
 ## Góc nhìn Senior
 
 Bắt đầu modularize khi build time ảnh hưởng năng suất hoặc khi ownership team trở nên không rõ ràng — không phải mặc định từ ngày đầu. Over-modularization thêm overhead quản lý dependency mà không có lợi ích tương xứng với codebase nhỏ.

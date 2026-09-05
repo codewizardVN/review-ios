@@ -20,6 +20,11 @@
 - Vì sao diffable vẫn có thể chậm trên list lớn?
 - Điều gì hỏng nếu item identifier không ổn định?
 
+## Câu hỏi luyện tập
+
+- Tại sao diffable vẫn có thể cảm giác chậm trên list lớn?
+- Điều gì sẽ hỏng nếu item identifier không ổn định?
+
 ## Góc nhìn senior
 
 Diffable data source cải thiện correctness, không phải phép màu performance. Bạn vẫn cần item identity tốt, tần suất apply snapshot hợp lý, và cell configuration đủ nhẹ.

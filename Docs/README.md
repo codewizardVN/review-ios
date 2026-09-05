@@ -6,8 +6,9 @@ General documentation, cheat sheets, and reference materials for the iOS Senior 
 
 ## Contents
 
+- [Interview Q&A Set](./InterviewQA.md) — practice questions grouped by study day, pulled from every topic's own file
+- [Study Plan](./StudyPlan/README.md) — the day-by-day review schedule
 - Cheat sheets for common Swift/SwiftUI APIs
-- Interview Q&A collections
 - Code review checklist templates
 - Architecture decision records (ADRs)
 - Useful links and external resources

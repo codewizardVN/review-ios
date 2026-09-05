@@ -44,6 +44,11 @@ Một cách tách hợp lý:
 - Bạn tách module trong app đang lớn lên như thế nào?
 - Với team hai người, bạn sẽ đơn giản hóa phần nào?
 
+## Câu hỏi luyện tập
+
+- Bạn tách module thế nào trong một app đang phát triển?
+- Bạn sẽ đơn giản hóa điều gì cho một team chỉ có hai engineer?
+
 ## Góc nhìn senior
 
 Câu trả lời system design không phải để vẽ nhiều box nhất. Nó là cách thể hiện judgment: độ phức tạp nào hợp lý lúc này, phần nào nên defer, và design vẫn vận hành được ra sao khi sản phẩm lớn lên.

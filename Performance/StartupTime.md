@@ -29,6 +29,10 @@
 - Defer non-critical initialization (`lazy var`, on-demand)
 - Use pre-warming (iOS 15+) — system launches app in background before user opens it
 
+## Practice Questions
+
+- After recording pre-main time with DYLD_PRINT_STATISTICS=1 and identifying the three most expensive post-main operations in Instruments' App Launch tool, what concrete change would you propose for each?
+
 ## Senior Take
 
 A 400ms improvement in launch time is real user value. But measure before optimizing — pre-main and post-main have different root causes and different fixes. Instrument first.

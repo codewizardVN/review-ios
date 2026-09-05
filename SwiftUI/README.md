@@ -14,6 +14,7 @@ SwiftUI view lifecycle, state management, navigation, and UIKit interoperability
 - [Navigation](./Navigation.md) — `NavigationStack`, `NavigationPath`, programmatic navigation
 - [Rendering Performance](./RenderingPerformance.md) — re-render causes, `List` vs `LazyVStack`
 - [UIKit Interoperability](./UIKitInterop.md) — `UIViewRepresentable`, `UIHostingController`
+- [Widgets and Live Activities](./WidgetsLiveActivities.md) — `TimelineProvider`, App Groups, ActivityKit
 
 ## Study Plan
 

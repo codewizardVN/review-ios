@@ -32,6 +32,10 @@ final class ItemRowSnapshotTests: XCTestCase {
 
 - Khi nào snapshot test thực sự có giá trị?
 
+## Câu hỏi luyện tập
+
+- Khi nào snapshot test mang lại giá trị thật sự?
+
 ## Góc nhìn senior
 
 Snapshot test có giá trị cao cho design system và reusable component. Giá trị thấp hơn cho màn hình đầy đủ thay đổi thường xuyên. Chạy chúng trong CI trên cấu hình simulator cố định để tránh false positive do khác biệt rendering giữa các máy.

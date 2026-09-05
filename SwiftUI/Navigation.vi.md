@@ -29,6 +29,10 @@ struct AppView: View {
 }
 ```
 
+## Câu hỏi luyện tập
+
+- Bạn sẽ pre-populate NavigationPath của NavigationStack lúc app launch như thế nào để một deep link đi thẳng đến màn Reviews cho một item cụ thể, bỏ qua màn List và Detail?
+
 ## Góc nhìn Senior
 
 Ưu tiên data-driven navigation (`.navigationDestination`) thay vì `NavigationLink(destination:)` inline. Cách này tách rời trigger khỏi destination và cho phép programmatic deep linking mà không cần biết toàn bộ view hierarchy.

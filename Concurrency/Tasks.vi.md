@@ -36,6 +36,11 @@ final class FeedViewModel: ObservableObject {
 - Nếu người dùng rời khỏi màn hình, request đang thực thi nên được xử lý như thế nào?
 - Sự khác biệt giữa `Task.detached` và `Task` thông thường là gì?
 
+## Câu hỏi luyện tập
+
+- Nếu user rời khỏi màn hình, request đang chạy dở nên được xử lý như thế nào?
+- Sự khác biệt giữa Task.detached và một Task thông thường là gì?
+
 ## Góc nhìn Senior
 
 Cancellation trong Swift là cooperative — bạn phải tự kiểm tra `Task.isCancelled` hoặc dùng `try Task.checkCancellation()` bên trong task body. Cancel một task không tự động dừng nó.

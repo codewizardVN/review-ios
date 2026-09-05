@@ -24,6 +24,10 @@ func fetchUser(id: String) async throws -> User {
 }
 ```
 
+## Practice Questions
+
+- After rewriting a completion-handler-based fetchUser function using async/await, in what real-world scenario would you still need to wrap it back into a completion-handler API with withCheckedThrowingContinuation?
+
 ## Senior Take
 
 Why `async/await` is easier to maintain than callback chains: the control flow is linear, error handling is unified via `throws`, and the compiler enforces correct usage.

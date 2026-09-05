@@ -36,6 +36,10 @@ struct APIClient {
 }
 ```
 
+## Practice Questions
+
+- Why does making URLSession injectable via init let you test a generic APIClient's fetch(_:from:) with a URLProtocol stub for both valid JSON decoding and a non-200 APIError.invalidResponse case?
+
 ## Senior Take
 
 Inject `URLSession` as a dependency — it makes the client testable without hitting real network. Use `URLProtocol` subclasses to intercept requests in tests.

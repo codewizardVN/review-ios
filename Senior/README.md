@@ -13,8 +13,12 @@ Topics that distinguish a senior iOS engineer: code review, refactoring, technic
 - [Refactoring Strategy](./Refactoring.md) — when to refactor, strangler fig, characterization tests
 - [Backward Compatibility](./BackwardCompatibility.md) — migrations, rollout safety, OS support
 - [Release Process](./ReleaseProcess.md) — release criteria, smoke tests, monitoring
+- [CI/CD for Mobile](./CICD.md) — Fastlane, code signing, build matrix, pipeline reliability
 - [Debugging Production Issues](./ProductionDebugging.md) — Crashlytics, dSYM, MetricKit
 - [Technical Leadership](./TechnicalLeadership.md) — mentoring, trade-offs, decisions under pressure
+- [App Store Submission and Review](./AppStoreSubmission.md) — privacy manifest, rejection causes, phased rollout
+- [Crash Reporting and Analytics](./CrashReportingAnalytics.md) — symbolication, event schema, alerting thresholds
+- [Feature Flags and Experimentation](./FeatureFlagsExperimentation.md) — flag lifecycle, A/B mechanics, kill switches
 
 ## Study Plan
 

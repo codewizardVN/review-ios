@@ -14,6 +14,7 @@ Vòng đời View, quản lý state, navigation và khả năng tương tác v�
 - [Navigation](./Navigation.vi.md) — `NavigationStack`, `NavigationPath`, navigation theo code
 - [Hiệu năng Rendering](./RenderingPerformance.vi.md) — nguyên nhân re-render, `List` vs `LazyVStack`
 - [Tương tác với UIKit](./UIKitInterop.vi.md) — `UIViewRepresentable`, `UIHostingController`
+- [Widgets và Live Activities](./WidgetsLiveActivities.vi.md) — `TimelineProvider`, App Group, ActivityKit
 
 ## Kế hoạch học
 

@@ -27,6 +27,11 @@ Phù hợp khi view tạo và sở hữu một view model, còn view model đó 
 - Khi nào `EnvironmentObject` hữu ích, khi nào quá "ma thuật"?
 - Làm sao giữ SwiftUI preview dễ dựng?
 
+## Câu hỏi luyện tập
+
+- Khi nào EnvironmentObject hữu ích so với khi nào nó quá "magic"?
+- Làm sao bạn giữ cho SwiftUI preview dễ dựng?
+
 ## Góc nhìn senior
 
 Mục tiêu không phải loại bỏ mọi convenience. Mục tiêu là giữ ownership và chiều của dependency đủ rõ để view tree vẫn testable và predictable.

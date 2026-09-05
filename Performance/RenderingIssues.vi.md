@@ -28,6 +28,11 @@
 - Tại sao UI bị dropped frame?
 - Tại sao image loading có thể khiến app cảm thấy giật?
 
+## Câu hỏi luyện tập
+
+- Tại sao UI bị rớt frame?
+- Tại sao việc load ảnh có thể khiến app cảm giác giật lag?
+
 ## Góc nhìn senior
 
 Trả lời theo quy trình: quan sát triệu chứng, mở Instruments, isolate layer gây dropped frame, đo chi phí thực tế trước khi tối ưu. Không đoán mò.

@@ -19,6 +19,10 @@ func makeView() -> some View { ... }
 var repo: any UserRepository
 ```
 
+## Practice Questions
+
+- Why does some Shape work for a factory function like makeDefaultShape() but any Shape become necessary for a function like largestShape(from shapes: [any Shape])?
+
 ## Senior Take
 
 You should understand this well enough to discuss API design, performance trade-offs, and when existential types are the better fit.

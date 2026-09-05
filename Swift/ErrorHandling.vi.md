@@ -21,6 +21,10 @@ enum NetworkError: Error {
 }
 ```
 
+## Câu hỏi luyện tập
+
+- Một do-catch đầy đủ xử lý từng case của ParseError (missingField, invalidFormat, unsupportedVersion) với thông báo riêng cho người dùng khác gì so với việc chỉ dùng try?
+
 ## Góc nhìn Senior
 
 Tránh để lộ các lỗi infrastructure thô trực tiếp lên UI. Hãy giải thích cách lỗi được chuyển đổi qua các layer.

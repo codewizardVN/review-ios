@@ -24,6 +24,11 @@
 - Bạn review một PR lớn như thế nào?
 - Bạn xử lý bất đồng về approach như thế nào?
 
+## Câu hỏi luyện tập
+
+- Bạn review một PR lớn như thế nào?
+- Bạn xử lý bất đồng về cách tiếp cận ra sao?
+
 ## Góc nhìn senior
 
 Code review là cơ hội dạy học và cổng chất lượng — không phải bài tập kiểm soát. Mục tiêu là codebase tốt hơn và team mạnh hơn, không phải chứng minh reviewer thông minh hơn.

@@ -24,6 +24,11 @@
 - Điều gì khiến bạn chặn một release?
 - Làm sao giảm release risk khi deadline đã cố định?
 
+## Câu hỏi luyện tập
+
+- Điều gì khiến bạn chặn một release lại?
+- Bạn giảm rủi ro release ra sao khi deadline đã cố định?
+
 ## Góc nhìn senior
 
 Release là một kỷ luật vận hành, không chỉ là bấm nút trên App Store Connect. Câu trả lời tốt nhất cân bằng tốc độ delivery với các guardrail đủ mạnh để team phục hồi nhanh khi có sự cố.

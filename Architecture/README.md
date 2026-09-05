@@ -14,6 +14,7 @@ iOS architecture patterns, modularization, and dependency injection.
 - [Coordinator Pattern](./Coordinator.md) — navigation ownership, flow orchestration
 - [Dependency Injection](./DependencyInjection.md) — constructor injection, fakes, testability
 - [Modularization](./Modularization.md) — feature modules, build time, ownership
+- [Design Patterns](./DesignPatterns.md) — Factory, Repository, Observer, Strategy, Adapter, Singleton misuse
 
 ## Study Plan
 

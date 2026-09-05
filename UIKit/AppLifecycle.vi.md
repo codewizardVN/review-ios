@@ -20,6 +20,11 @@ Các lifecycle event của app cho biết khi nào app launch, active, chuyển 
 - App nên làm gì khi vào background?
 - Nên refresh critical state ở đâu khi quay lại foreground?
 
+## Câu hỏi luyện tập
+
+- Chuyện gì nên xảy ra khi app vào background?
+- Bạn refresh state quan trọng ở đâu khi quay lại foreground?
+
 ## Góc nhìn senior
 
 Lifecycle code nên mỏng. Tầng delegate chỉ nên điều phối app-level services, còn logic của feature nên nằm trong object chuyên trách để app dễ test và dễ maintain.

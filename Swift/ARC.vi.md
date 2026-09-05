@@ -65,6 +65,10 @@ final class ProfileViewModel {
 
 Đừng mù quáng viết `[weak self]` ở khắp nơi. Hãy giải thích tại sao capture tồn tại, ai sở hữu ai, và liệu `self` có thực sự cần tồn tại cho toàn bộ operation hay không.
 
+## Câu hỏi luyện tập
+
+- Bạn sẽ chứng minh retain cycle gây ra bởi completion closure của DataLoader capture self mạnh như thế nào, và tại sao [weak self] là cách sửa đúng thay vì unowned?
+
 ## Bài tập
 
 Viết một class `DataLoader` fetch dữ liệu và gọi một completion closure. Cố tình tạo ra một retain cycle bằng cách để closure capture `self` mạnh và lưu closure đó như một property. Xác minh cycle tồn tại bằng cách dùng `deinit { print("deinit") }`. Sau đó fix nó bằng `[weak self]`. Giải thích trong comment tại sao weak là lựa chọn đúng ở đây (không phải unowned).

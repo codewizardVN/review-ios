@@ -20,6 +20,10 @@ Pattern mặc định trong UIKit apps. Controller là cầu nối giữa Model 
 - Khó unit test vì controller gắn chặt với UIKit lifecycle
 - Business logic, navigation và UI thường dồn vào cùng một chỗ
 
+## Câu hỏi luyện tập
+
+- Sau khi tách lời gọi URLSession, việc format giá inline, và push sang detail screen của một ProductListViewController thành Model, Controller và một Service riêng, cái gì trở nên unit-test được và cái gì vẫn không thể test trong UIKit MVC dù có tách?
+
 ## Góc nhìn Senior
 
 MVC không hỏng về bản chất — nó thường bị áp dụng sai. MVC có kỷ luật với thin controller, model layer riêng biệt và service được tách ra có thể bảo trì được. Vấn đề thực sự là UIKit khiến việc đổ tất cả vào controller trở nên quá dễ.

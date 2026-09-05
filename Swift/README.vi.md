@@ -15,6 +15,7 @@ Các tính năng ngôn ngữ Swift cốt lõi mà mọi kỹ sư iOS senior cầ
 - [Xử lý lỗi](./ErrorHandling.vi.md)
 - [Access Control](./AccessControl.vi.md)
 - [Opaque Types](./OpaqueTypes.vi.md) — `any` vs `some`
+- [Objective-C Interop](./ObjCInterop.vi.md) — `@objc`, bridging header, cái gì không bridge được
 
 ## Kế hoạch học
 

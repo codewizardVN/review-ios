@@ -32,6 +32,10 @@ struct FeedView: View {
 }
 ```
 
+## Practice Questions
+
+- Why is .task preferred over onAppear combined with manual task management for a CountdownView that must cancel its Task.sleep-based countdown when the user navigates away?
+
 ## Senior Take
 
 Understanding identity is key. Two views with the same type at the same position in the hierarchy share state. Changing `.id()` destroys and recreates state. This matters when animating lists or resetting form fields.

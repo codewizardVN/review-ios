@@ -32,6 +32,10 @@ struct FeedView: View {
 }
 ```
 
+## Câu hỏi luyện tập
+
+- Tại sao .task được ưu tiên hơn onAppear kết hợp quản lý task thủ công cho một CountdownView cần cancel đếm ngược dựa trên Task.sleep khi user navigate away?
+
 ## Góc nhìn Senior
 
 Hiểu về identity là chìa khóa. Hai view có cùng type ở cùng vị trí trong hierarchy sẽ chia sẻ state. Thay đổi `.id()` sẽ phá hủy và tái tạo state. Điều này quan trọng khi animate list hoặc reset form field.

@@ -48,6 +48,11 @@ final class RemoteUserRepository: UserRepository {
 - App nhỏ có nên dùng Clean Architecture không?
 - Khi nào Clean Architecture trở thành over-engineering?
 
+## Câu hỏi luyện tập
+
+- Một app nhỏ có nên dùng Clean Architecture không?
+- Khi nào Clean Architecture trở thành over-engineering?
+
 ## Góc nhìn Senior
 
 Giá trị của Clean Architecture nằm ở testability và replaceability — bạn có thể swap data layer mà không động đến domain. Chi phí là boilerplate và indirection. Nó có giá trị với team lớn, domain phức tạp, hoặc app cần test nhiều.

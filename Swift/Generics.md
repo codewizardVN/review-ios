@@ -16,6 +16,10 @@ struct APIResponse<T: Decodable>: Decodable {
 }
 ```
 
+## Practice Questions
+
+- Why is the Equatable constraint necessary on an EquatableStack's contains(_:) method that a plain generic Stack<Element> cannot support?
+
 ## Senior Take
 
 A good senior answer explains where generics improve API clarity and where generic-heavy design becomes hard to read and maintain.

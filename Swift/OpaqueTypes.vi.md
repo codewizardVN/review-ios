@@ -19,6 +19,10 @@ func makeView() -> some View { ... }
 var repo: any UserRepository
 ```
 
+## Câu hỏi luyện tập
+
+- Tại sao some Shape phù hợp cho một factory function như makeDefaultShape() nhưng any Shape lại cần thiết cho một function như largestShape(from shapes: [any Shape])?
+
 ## Góc nhìn Senior
 
 Bạn cần hiểu đủ sâu để thảo luận về API design, các đánh đổi về hiệu năng, và khi nào existential type là lựa chọn phù hợp hơn.

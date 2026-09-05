@@ -20,6 +20,11 @@ Các entry point từ bên ngoài nên được map vào app route một cách �
 - Điều gì xảy ra nếu deep link đến trước khi login xong?
 - Route parsing nên nằm ở đâu?
 
+## Câu hỏi luyện tập
+
+- Chuyện gì xảy ra nếu deep link đến trước khi login hoàn tất?
+- Việc parse route nên nằm ở đâu?
+
 ## Góc nhìn senior
 
 Xử lý deep link là bài toán điều phối cấp app. Câu trả lời tốt nên nói về route modeling, readiness check, fallback behavior, và analytics, không chỉ là mở thẳng một screen.

@@ -37,6 +37,10 @@ view.addSubview(hostingVC.view)
 - UIKit: khi cần chức năng chưa có trong SwiftUI (gesture phức tạp, custom drawing, camera, map nâng cao)
 - Hosting Controller: khi migrate dần app UIKit sang SwiftUI
 
+## Câu hỏi luyện tập
+
+- Tại sao cần một Coordinator khi wrap UIColorPickerViewController bằng UIViewControllerRepresentable để truyền UIColor được chọn về qua @Binding<Color>, và lifecycle của nó so với Representable ra sao?
+
 ## Góc nhìn Senior
 
 Interop thêm độ phức tạp. Ưu tiên native SwiftUI khi có thể. Khi wrap UIKit, giữ `Representable` gọn nhẹ — đưa logic vào view model hoặc coordinator, không phải `makeUIView`.

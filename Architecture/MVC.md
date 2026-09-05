@@ -20,6 +20,10 @@ The default pattern in UIKit apps. The Controller mediates between the Model (da
 - Hard to unit test because controller is tightly coupled to UIKit lifecycle
 - Business logic, navigation, and UI often end up in the same place
 
+## Practice Questions
+
+- After splitting a ProductListViewController's URLSession call, inline price formatting, and detail-screen push into Model, Controller, and a separate Service, what becomes unit-testable and what remains untestable in UIKit MVC regardless?
+
 ## Senior Take
 
 MVC is not inherently broken — it is often misapplied. A disciplined MVC with thin controllers, separate model layer, and extracted services can be maintainable. The real problem is that UIKit makes it easy to dump everything into the controller.

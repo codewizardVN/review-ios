@@ -29,6 +29,10 @@
 - Defer khởi tạo không cần thiết (`lazy var`, on-demand)
 - Dùng pre-warming (iOS 15+) — hệ thống launch app ở background trước khi người dùng mở
 
+## Câu hỏi luyện tập
+
+- Sau khi ghi lại thời gian pre-main bằng DYLD_PRINT_STATISTICS=1 và xác định ba thao tác tốn kém nhất trong post-main bằng công cụ App Launch của Instruments, bạn sẽ đề xuất thay đổi cụ thể nào cho mỗi thao tác?
+
 ## Góc nhìn senior
 
 Cải thiện 400ms startup time là giá trị thực cho người dùng. Nhưng hãy đo trước khi tối ưu — pre-main và post-main có nguyên nhân và cách sửa khác nhau. Instrument trước.

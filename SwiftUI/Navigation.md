@@ -29,6 +29,10 @@ struct AppView: View {
 }
 ```
 
+## Practice Questions
+
+- How would you pre-populate a NavigationStack's NavigationPath on app launch so a deep link navigates directly to the Reviews screen for a specific item, skipping the List and Detail screens?
+
 ## Senior Take
 
 Prefer data-driven navigation (`.navigationDestination`) over inline `NavigationLink(destination:)`. It decouples the trigger from the destination and enables programmatic deep linking without knowing the full view hierarchy.

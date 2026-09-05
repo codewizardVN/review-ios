@@ -68,6 +68,10 @@ Với reference type, cả hai biến có thể trỏ đến cùng một object 
 
 Điều này quan trọng trong state management, reducers, view models, caching, và concurrency. Một câu trả lời cấp Senior phải kết nối semantics với hành vi của hệ thống.
 
+## Câu hỏi luyện tập
+
+- Bạn sẽ dùng một kiểu BankAccount cài đặt cả dưới dạng struct lẫn class như thế nào để giải thích việc copy một struct account so với gán một class account làm thay đổi ngữ nghĩa của lời gọi transfer(to:amount:) ra sao?
+
 ## Bài tập
 
 Implement một kiểu `BankAccount` trước tiên là `struct`, sau đó là `class`. Thêm method `transfer(to:amount:)` để chuyển tiền giữa các tài khoản. Quan sát điều gì xảy ra khi bạn copy một struct account so với gán một class account rồi gọi transfer. Viết 3 câu giải thích khi nào mỗi lựa chọn có ý nghĩa semantic phù hợp với domain này.

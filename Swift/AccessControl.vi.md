@@ -12,6 +12,10 @@
 - `public` — hiển thị bên ngoài module, nhưng không thể subclass/override
 - `open` — hiển thị bên ngoài module và có thể subclass/override
 
+## Câu hỏi luyện tập
+
+- Bạn sẽ thiết kế struct KeychainStore với các access level phù hợp cho items được lưu trữ, các method public read/write, và helper encrypt nội bộ như thế nào, và điều gì sẽ hỏng nếu items là public?
+
 ## Góc nhìn Senior
 
 Access control là về API boundaries và giảm thiểu việc sử dụng sai, không chỉ đơn thuần là ẩn chi tiết implementation.

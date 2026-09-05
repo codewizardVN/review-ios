@@ -16,6 +16,10 @@ struct APIResponse<T: Decodable>: Decodable {
 }
 ```
 
+## Câu hỏi luyện tập
+
+- Tại sao constraint Equatable lại cần thiết cho method contains(_:) của EquatableStack, điều mà một Stack<Element> generic thông thường không thể hỗ trợ?
+
 ## Góc nhìn Senior
 
 Một câu trả lời cấp Senior tốt giải thích khi nào generics cải thiện sự rõ ràng của API và khi nào thiết kế generic nặng nề trở nên khó đọc và khó bảo trì.

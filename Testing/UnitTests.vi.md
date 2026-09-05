@@ -38,6 +38,11 @@ final class FeedViewModelTests: XCTestCase {
 - Nên viết test cho những phần nào và không nên viết cho phần nào?
 - Nếu code khó test, vấn đề thường nằm ở đâu?
 
+## Câu hỏi luyện tập
+
+- Test nào nên viết và test nào không nên?
+- Nếu code khó test, vấn đề thường nằm ở đâu?
+
 ## Góc nhìn senior
 
 Code khó test thường là dấu hiệu thiết kế kém: code có dependency ẩn, global state, hoặc pha trộn nhiều trách nhiệm. Khi test khó, hãy refactor thay vì tìm cách vượt qua.

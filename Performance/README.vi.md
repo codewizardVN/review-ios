@@ -13,6 +13,7 @@ Profiling, tối ưu hóa và các best practice về hiệu năng cho ứng d�
 - [Rendering Issues](./RenderingIssues.vi.md) — offscreen rendering, blending, frame budget
 - [Startup Time](./StartupTime.vi.md) — pre-main, post-main, dylib loading
 - [Large List Optimization](./LargeListOptimization.vi.md) — cell reuse, diffable data source, `LazyVStack`
+- [App Size Optimization](./AppSizeOptimization.vi.md) — app thinning, On-Demand Resources, static vs dynamic framework
 
 ## Kế hoạch học
 

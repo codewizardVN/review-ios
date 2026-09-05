@@ -38,6 +38,11 @@ func test_login_success_showsHomeScreen() {
 - Những flow nào nên được bảo vệ bằng UI test trước?
 - Làm sao giảm flaky UI tests?
 
+## Câu hỏi luyện tập
+
+- Flow nào xứng đáng có UI test trước tiên?
+- Làm sao bạn giảm tình trạng UI test bị flaky?
+
 ## Góc nhìn senior
 
 UI test có chi phí cao. Hãy dùng chúng để bảo vệ một vài journey thật sự quan trọng cho business như login, checkout, onboarding, hoặc migration rủi ro. Mục tiêu là confidence per cost, không phải phủ test bằng mọi giá.

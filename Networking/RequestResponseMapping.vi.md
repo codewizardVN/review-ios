@@ -41,6 +41,11 @@ extension UserDTO {
 - Khi nào có thể chấp nhận bỏ qua DTO?
 - Mapping nên nằm ở đâu: service, repository, hay use case?
 
+## Câu hỏi luyện tập
+
+- Khi nào việc bỏ qua DTO là chấp nhận được?
+- Việc mapping nên nằm ở đâu: service, repository, hay use case?
+
 ## Góc nhìn senior
 
 Mapping không phải việc thừa. Nó tạo ra boundary để bảo vệ UI và domain khỏi biến động từ backend. Chỉ nên bỏ boundary này khi app còn nhỏ và shape của payload đã thật sự khớp với behavior của sản phẩm.

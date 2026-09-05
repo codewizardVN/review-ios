@@ -32,6 +32,8 @@ Phù hợp nếu bạn:
 - Error handling
 - Access control
 - Concurrency với `async/await`, `Task`, `Actor`
+- Combine (`Publisher`/`Subscriber`, `@Published`, so với `async/await`)
+- Objective-C interop (`@objc`, bridging header, codebase legacy)
 
 ### 2. SwiftUI
 
@@ -41,6 +43,7 @@ Phù hợp nếu bạn:
 - List, lazy stack, performance rendering
 - Dependency injection trong SwiftUI
 - Interop giữa `SwiftUI` và `UIKit`
+- Widget, `TimelineProvider`, và Live Activities (`ActivityKit`)
 
 ### 3. UIKit và app lifecycle
 
@@ -50,12 +53,15 @@ Phù hợp nếu bạn:
 - Auto Layout
 - CollectionView, Diffable Data Source
 - Deep link, universal link, notification flow
+- Push notification (APNs, silent push, notification service extension)
+- Background execution (`BGTaskScheduler`, background `URLSession`)
 
 ### 4. Architecture
 
 - MVC, MVVM, Clean Architecture
 - Modularization
 - Dependency injection
+- Design pattern (Factory, Repository, Observer, Strategy, Adapter, trade-off của Singleton)
 - Separation of concerns
 - State-driven UI
 - Trade-off giữa simplicity và scalability
@@ -70,7 +76,20 @@ Phù hợp nếu bạn:
 - Offline-first thinking
 - API client design
 
-### 6. Performance
+### 6. Persistence
+
+- Core Data (context, merge policy, migration)
+- SwiftData (`@Model`, `ModelContainer`, `@Query`)
+- Chọn giữa Core Data và SwiftData
+
+### 7. Security
+
+- Keychain (lưu trữ an toàn, access control, bảo vệ bằng biometric)
+- App Transport Security
+- Certificate / public key pinning
+- Giới hạn của jailbreak detection
+
+### 8. Performance
 
 - Main-thread discipline
 - Instruments cơ bản
@@ -78,8 +97,9 @@ Phù hợp nếu bạn:
 - Rendering performance
 - Startup time
 - Large-list optimization
+- App size optimization (app thinning, ODR, static vs dynamic framework)
 
-### 7. Testing
+### 9. Testing
 
 - Unit test
 - UI test
@@ -88,15 +108,25 @@ Phù hợp nếu bạn:
 - Snapshot test
 - Regression prevention
 
-### 8. Chủ đề senior-level
+### 10. Chủ đề senior-level
 
 - Code review mindset
 - Refactoring strategy
 - Debugging production issue
 - Backward compatibility
 - Release process
+- CI/CD cho mobile (Fastlane, code signing, độ tin cậy pipeline)
 - Mentoring và technical ownership
 - Trade-off analysis khi ra quyết định kỹ thuật
+- App Store submission và review (privacy manifest, nguyên nhân reject)
+- Crash reporting và analytics (symbolication, schema event, alerting)
+- Feature flags và experimentation (vòng đời flag, cơ chế A/B)
+
+### 11. Accessibility và Localization
+
+- VoiceOver, Dynamic Type, custom accessibility action
+- Localization với String Catalog, số nhiều, `FormatStyle`
+- Layout phải-sang-trái và cạm bẫy text mở rộng
 
 ## Cấu trúc repo
 
@@ -112,9 +142,12 @@ Phù hợp nếu bạn:
 |-- Architecture/
 |-- Networking/
 |-- Concurrency/
+|-- Persistence/
+|-- Security/
 |-- Performance/
 |-- Testing/
-`-- Senior/
+|-- Senior/
+`-- Accessibility/
 ```
 
 Gợi ý cách học:
@@ -136,13 +169,15 @@ Gợi ý cách học:
 - Bạn có thể viết test cho ViewModel, use case, và network layer không?
 - Bạn có biết cách debug crash, leak, và frame drop không?
 - Bạn có thể defend trade-off architecture trước team không?
+- Bạn có biết token nên (và không nên) lưu ở đâu, và tại sao không?
+- Bạn có thể tự sở hữu một pipeline CI/CD từ đầu đến cuối, kể cả khi setup signing bị hỏng không?
 
 ## Hướng phát triển tiếp
 
 Repo này có thể bổ sung thêm:
 
 - Ví dụ code nhỏ cho từng chủ đề
-- Các bộ interview Q&A
+- ~~Các bộ interview Q&A~~ → đã có: [Bộ Câu Hỏi Phỏng Vấn](./Docs/InterviewQA.vi.md), nhóm theo từng ngày học
 - Mini projects bằng `SwiftUI`
 - Sample architecture cho app production
 - Template checklist code review cho iOS team

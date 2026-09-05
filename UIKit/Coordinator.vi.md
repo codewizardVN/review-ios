@@ -20,6 +20,11 @@ Navigation là application flow, không phải view rendering. Coordinator hoặ
 - Khi nào screen nên trigger navigation trực tiếp?
 - Ai nên phản ứng với deep link mở vào nested flow?
 
+## Câu hỏi luyện tập
+
+- Khi nào một screen nên tự trigger navigation trực tiếp?
+- Ai nên xử lý một deep link mở ra một flow lồng nhau?
+
 ## Góc nhìn senior
 
 Coordinator pattern hữu ích khi độ phức tạp của navigation là có thật. Nếu chỉ có một flow đơn giản, thêm layer có thể không đáng. Điểm quan trọng là mức độ indirection phải khớp với độ phức tạp của sản phẩm.

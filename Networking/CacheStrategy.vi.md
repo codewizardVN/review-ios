@@ -32,6 +32,11 @@ let session = URLSession(configuration: config)
 - Tầng nào nên sở hữu caching?
 - Làm sao tránh phục vụ stale data sau khi logout?
 
+## Câu hỏi luyện tập
+
+- Tầng nào nên sở hữu việc caching?
+- Làm sao bạn tránh trả về dữ liệu cũ sau khi logout?
+
 ## Góc nhìn Senior
 
 Quyết định cache thuộc về data layer, không phải ViewModel. Domain không nên biết data được lưu như thế nào hay đến từ đâu.

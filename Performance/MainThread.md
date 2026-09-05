@@ -39,6 +39,10 @@ func didReceiveData(_ data: Data) {
 }
 ```
 
+## Practice Questions
+
+- Why must a SearchViewModel's JSON decoding and filtering move off the main thread with Task.detached, publishing the result back on @MainActor instead of doing it inline in didReceiveData?
+
 ## Senior Take
 
 `@MainActor` on ViewModels does not mean all work runs on the main thread — it means properties and methods are accessed on the main thread. Async work inside a `@MainActor` function suspends to a background thread when awaiting, which is correct behavior.

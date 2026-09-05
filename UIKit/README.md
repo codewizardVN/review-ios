@@ -12,6 +12,8 @@ UIKit fundamentals, view controller lifecycle, navigation patterns, and app life
 - [Auto Layout](./AutoLayout.md) — constraint priorities, `UIStackView`, intrinsic content size
 - [Collection View and Diffable Data Source](./CollectionViewDiffable.md) — snapshot, identity, reuse
 - [Deep Links, Universal Links, and Notification Flows](./DeepLinks.md) — route parsing, auth gating, deferred navigation
+- [Push Notifications](./PushNotifications.md) — APNs registration, silent push, notification service extension
+- [Background Execution](./BackgroundExecution.md) — `BGTaskScheduler`, background URLSession, best-effort scheduling
 
 ## Study Plan
 

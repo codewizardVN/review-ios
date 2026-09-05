@@ -28,6 +28,11 @@
 - Khi nào refactor và khi nào để code như cũ?
 - Bạn refactor legacy codebase mà không phá vỡ behavior hiện tại như thế nào?
 
+## Câu hỏi luyện tập
+
+- Khi nào nên refactor và khi nào nên để code như cũ?
+- Bạn refactor một codebase legacy mà không làm gãy behavior hiện có như thế nào?
+
 ## Góc nhìn senior
 
 Refactor mà không có test thì nguy hiểm. Bước đầu tiên gần như luôn là: thêm test cho behavior hiện tại, rồi mới thay đổi. Characterization test ghi lại behavior hiện tại — kể cả bug — để bạn biết khi nào có gì đó thay đổi.

@@ -39,6 +39,10 @@ func didReceiveData(_ data: Data) {
 }
 ```
 
+## Câu hỏi luyện tập
+
+- Tại sao việc decode JSON và filter kết quả của SearchViewModel phải chuyển ra khỏi main thread bằng Task.detached, rồi publish kết quả về trên @MainActor, thay vì làm trực tiếp trong didReceiveData?
+
 ## Góc nhìn senior
 
 `@MainActor` trên ViewModel không có nghĩa là tất cả công việc chạy trên main thread — nó có nghĩa là các property và method được truy cập trên main thread. Async work bên trong hàm `@MainActor` suspend sang background thread khi await, đây là hành vi đúng.

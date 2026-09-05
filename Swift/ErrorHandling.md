@@ -21,6 +21,10 @@ enum NetworkError: Error {
 }
 ```
 
+## Practice Questions
+
+- How does a full do-catch that handles each ParseError case (missingField, invalidFormat, unsupportedVersion) with a distinct user-facing message differ from just using try?
+
 ## Senior Take
 
 Avoid leaking raw infrastructure errors directly to the UI. Explain how errors are translated across layers.

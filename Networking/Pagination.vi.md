@@ -44,6 +44,11 @@ final class FeedPager {
 - Paging state nên nằm ở ViewModel hay service?
 - Làm sao tránh load page 3 hai lần?
 
+## Câu hỏi luyện tập
+
+- State pagination nên nằm ở ViewModel hay service?
+- Làm sao bạn tránh load trang 3 hai lần?
+
 ## Góc nhìn senior
 
 Paging state thường nên nằm gần feature flow, không nên chôn quá sâu trong một generic network client. Điều quan trọng là ownership rõ ràng cho `isLoading`, `nextCursor`, và cách merge dữ liệu.

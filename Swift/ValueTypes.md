@@ -68,6 +68,10 @@ With a reference type, both variables could point to the same object and mutate 
 
 This matters in state management, reducers, view models, caching, and concurrency. A senior answer should connect semantics to system behavior.
 
+## Practice Questions
+
+- How would you use a BankAccount type implemented as both a struct and a class to explain when copying a struct account versus assigning a class account changes the semantics of a transfer(to:amount:) call?
+
 ## Exercise
 
 Implement a `BankAccount` type first as a `struct`, then as a `class`. Add a `transfer(to:amount:)` method that moves funds between accounts. Observe what happens when you copy a struct account vs assign a class account and call transfer. Write 3 sentences explaining when each choice makes semantic sense for this domain.

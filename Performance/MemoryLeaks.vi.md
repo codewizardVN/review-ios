@@ -36,6 +36,10 @@ timer = Timer.scheduledTimer(withTimeInterval: 1, repeats: true) { [weak self] _
 }
 ```
 
+## Câu hỏi luyện tập
+
+- Nếu deinit của một view controller không bao giờ được gọi sau khi navigate away vì một Timer hoặc NotificationCenter observer, bạn sẽ dùng Memory Graph Debugger như thế nào để tìm và sửa retain cycle?
+
 ## Góc nhìn senior
 
 Leak trong production thường tinh tế — không phải trong closure rõ ràng mà trong observer chain, analytics hook, hoặc background task sống lâu hơn màn hình. Dùng Memory Graph trong QA, không chỉ trong development.

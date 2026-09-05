@@ -40,6 +40,10 @@ final class FeedViewModel: ObservableObject {
 
 - Bug có thể vẫn xảy ra dù dùng `Actor` trong trường hợp nào?
 
+## Câu hỏi luyện tập
+
+- Bug vẫn có thể xảy ra khi nào dù bạn đã dùng Actor?
+
 ## Góc nhìn Senior
 
 Actor reentrancy là bất ngờ phổ biến nhất. State có thể thay đổi giữa hai điểm `await` trong cùng một actor method, vì vậy đừng giả định state là ổn định qua các lần suspension.

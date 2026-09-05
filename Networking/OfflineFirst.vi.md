@@ -28,6 +28,10 @@ Hiển thị cached data ngay lập tức, fetch update trong background và x�
 
 - Nếu API chậm hoặc không ổn định, bạn sẽ thiết kế data flow như thế nào?
 
+## Câu hỏi luyện tập
+
+- Nếu API chậm hoặc không ổn định, bạn sẽ thiết kế luồng dữ liệu như thế nào?
+
 ## Góc nhìn Senior
 
 Offline-first là quyết định UX trước khi là quyết định kỹ thuật. Định nghĩa "offline" có nghĩa gì với từng tính năng: chỉ đọc cache? Cho phép write? Hiển thị staleness indicator? Căn chỉnh với product trước khi xây dựng sync layer.

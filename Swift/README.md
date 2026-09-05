@@ -15,6 +15,7 @@ Core Swift language features every senior iOS engineer should know deeply.
 - [Error Handling](./ErrorHandling.md)
 - [Access Control](./AccessControl.md)
 - [Opaque Types](./OpaqueTypes.md) — `any` vs `some`
+- [Objective-C Interop](./ObjCInterop.md) — `@objc`, bridging header, what can't bridge
 
 ## Study Plan
 

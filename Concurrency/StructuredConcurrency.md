@@ -36,6 +36,10 @@ func fetchAll(ids: [String]) async throws -> [Item] {
 }
 ```
 
+## Practice Questions
+
+- When is async let clearer for a loadProfile() function that fetches user, posts, and followers concurrently, and when does withThrowingTaskGroup become necessary instead?
+
 ## Senior Take
 
 Structured concurrency is not just a syntax convenience. It provides a clear ownership model: tasks are scoped, leaks are harder to introduce, and cancellation propagates automatically. Prefer it over unstructured `Task { }` whenever the lifetime is bounded.

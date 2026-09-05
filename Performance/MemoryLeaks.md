@@ -36,6 +36,10 @@ timer = Timer.scheduledTimer(withTimeInterval: 1, repeats: true) { [weak self] _
 }
 ```
 
+## Practice Questions
+
+- If a view controller's deinit never fires after navigating away because of a Timer or NotificationCenter observer, how would you use the Memory Graph Debugger to find and fix the retain cycle?
+
 ## Senior Take
 
 Leaks in production are often subtle — not in obvious closures, but in observer chains, analytics hooks, or background tasks that outlive the screen. Use the Memory Graph during QA, not just during development.

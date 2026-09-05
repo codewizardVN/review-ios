@@ -32,6 +32,10 @@
 
 - Bạn tiếp cận một crash production ngẫu nhiên như thế nào?
 
+## Câu hỏi luyện tập
+
+- Bạn tiếp cận một crash production ngẫu nhiên như thế nào?
+
 ## Góc nhìn senior
 
 Crash production không có đường reproduce đòi hỏi xây dựng giả thuyết từ dữ liệu có sẵn: stack trace, phân phối OS/device, phạm vi app version, cohort người dùng. Thu hẹp không gian giả thuyết trước khi viết bất kỳ fix nào.

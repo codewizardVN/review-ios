@@ -12,6 +12,7 @@ Swift concurrency hiện đại và actor isolation cho app iOS production.
 - [Task và Cancellation](./Tasks.vi.md) — `Task`, `Task.detached`, `TaskGroup`, cooperative cancellation
 - [Actor và MainActor](./Actors.vi.md) — data isolation, actor reentrancy
 - [Structured Concurrency](./StructuredConcurrency.vi.md) — `async let`, task hierarchy, lifecycle
+- [Combine](./Combine.vi.md) — `Publisher`/`Subscriber`, `@Published`, Combine vs `async/await`
 
 ## Kế hoạch học
 

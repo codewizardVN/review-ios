@@ -31,6 +31,10 @@ struct UserDTO: Decodable {
 }
 ```
 
+## Practice Questions
+
+- What breaks if a domain User model decodes JSON directly instead of going through a UserDTO with CodingKeys mapping and a toDomain() conversion?
+
 ## Senior Take
 
 Do not decode directly into domain models. Keep DTOs separate — the API contract and your domain model should be able to evolve independently. Mapping at the data layer boundary keeps the domain clean.

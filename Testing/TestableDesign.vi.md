@@ -24,6 +24,11 @@
 - Có nên test tất cả mọi thứ không?
 - Bao nhiêu UI testing là đủ mà không trở nên flaky?
 
+## Câu hỏi luyện tập
+
+- Có nên test mọi thứ không?
+- Bao nhiêu UI test là đủ mà không bị flaky?
+
 ## Góc nhìn senior
 
 Khả năng test là thước đo của thiết kế tốt. Tư duy senior tối ưu độ tin cậy trên chi phí — không phải số lượng test bằng mọi giá. Viết test ở những nơi mà failure sẽ gây đau đớn, không phải ở mọi nơi như nhau.

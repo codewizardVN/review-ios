@@ -36,6 +36,10 @@ struct APIClient {
 }
 ```
 
+## Câu hỏi luyện tập
+
+- Tại sao việc inject URLSession qua init lại giúp bạn test được fetch(_:from:) của một APIClient generic bằng URLProtocol stub cho cả trường hợp decode JSON hợp lệ lẫn trường hợp status non-200 ném ra APIError.invalidResponse?
+
 ## Góc nhìn Senior
 
 Inject `URLSession` như một dependency — giúp client testable mà không cần hit real network. Dùng `URLProtocol` subclass để intercept request trong test.

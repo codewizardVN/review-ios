@@ -45,6 +45,11 @@ Hữu ích trong SwiftUI qua `.environment()` hoặc shared container, nhưng �
 - DI giúp testing như thế nào?
 - Tiêu chí nào để quyết định giữa DI container và manual injection?
 
+## Câu hỏi luyện tập
+
+- Dependency injection giúp ích cho việc testing như thế nào?
+- Bạn dùng tiêu chí gì để quyết định giữa DI container và inject thủ công?
+
 ## Góc nhìn Senior
 
 Manual DI thường đủ cho hầu hết app. Dùng DI container (như Needle hoặc Swinject) chỉ khi dependency graph lớn và phức tạp. Container thêm độ phức tạp và learning curve riêng.

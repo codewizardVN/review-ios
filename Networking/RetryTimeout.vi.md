@@ -43,6 +43,11 @@ Cancel qua `Task.cancel()`. `URLSession` task đang chạy tự động bị can
 - Khi nào retry hợp lý và khi nào không?
 - Làm sao tránh duplicate request khi người dùng thao tác nhanh?
 
+## Câu hỏi luyện tập
+
+- Khi nào retry hợp lý và khi nào không?
+- Làm sao bạn tránh duplicate request khi user thao tác nhanh?
+
 ## Góc nhìn Senior
 
 Exponential backoff với jitter tốt hơn fixed-interval retry trong production — tránh thundering herd khi nhiều client thất bại cùng lúc.

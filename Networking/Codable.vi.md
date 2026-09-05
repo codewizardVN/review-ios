@@ -31,6 +31,10 @@ struct UserDTO: Decodable {
 }
 ```
 
+## Câu hỏi luyện tập
+
+- Điều gì sẽ hỏng nếu domain model User decode JSON trực tiếp thay vì đi qua UserDTO với CodingKeys mapping và chuyển đổi toDomain()?
+
 ## Góc nhìn Senior
 
 Không decode trực tiếp vào domain model. Giữ DTO riêng biệt — API contract và domain model phải có thể phát triển độc lập. Map tại ranh giới data layer giữ domain sạch.

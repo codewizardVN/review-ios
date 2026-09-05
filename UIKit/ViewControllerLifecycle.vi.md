@@ -20,6 +20,11 @@ Mỗi lifecycle method có vai trò khác nhau. Bug thường xuất hiện khi 
 - `viewWillAppear` khác `viewDidAppear` ở điểm nào?
 - Công việc nào không nên đặt trong `viewDidLoad`?
 
+## Câu hỏi luyện tập
+
+- Sự khác biệt giữa viewWillAppear và viewDidAppear là gì?
+- Công việc nào không bao giờ nên xảy ra trong viewDidLoad?
+
 ## Góc nhìn senior
 
 Lifecycle thực chất là chuyện ownership và timing. Câu trả lời tốt cần giải thích vì sao một việc thuộc về phase đó, thay vì chỉ thuộc callback theo kiểu học thuộc.

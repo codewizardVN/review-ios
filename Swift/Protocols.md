@@ -22,6 +22,10 @@ protocol UserRepository {
 - Too many protocols can overcomplicate the codebase
 - Protocols should exist for a real substitution or abstraction need
 
+## Practice Questions
+
+- Why does injecting an AnalyticsService protocol (with FirebaseAnalytics and NoOpAnalytics implementations) into a CheckoutViewModel's initializer make the ViewModel testable?
+
 ## Exercise
 
 Define an `AnalyticsService` protocol with a single method `track(event: String)`. Write two conforming types: `FirebaseAnalytics` (which just prints "Firebase: \(event)") and `NoOpAnalytics` (which does nothing). Inject `AnalyticsService` into a `CheckoutViewModel` via its initializer. Write a unit test using `NoOpAnalytics`. Explain why the protocol boundary makes the ViewModel testable.

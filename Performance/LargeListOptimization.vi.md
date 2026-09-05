@@ -29,6 +29,10 @@
 
 - Nếu màn hình scroll kém, bạn kiểm tra gì đầu tiên?
 
+## Câu hỏi luyện tập
+
+- Nếu một màn hình scroll kém, bạn kiểm tra điều gì đầu tiên?
+
 ## Góc nhìn senior
 
 Profile trước. Cách sửa phụ thuộc vào nguyên nhân gốc: cell configuration chậm vs allocation quá nhiều vs main thread bị block. Kiểm tra Time Profiler trong khi scroll trước khi viết bất kỳ code tối ưu nào.
