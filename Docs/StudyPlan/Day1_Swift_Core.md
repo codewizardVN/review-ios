@@ -8,13 +8,13 @@ Build a strong foundation in the Swift concepts that matter most for senior iOS 
 
 ## Topics
 
-- [Value Types and Reference Types](../../Swift/ValueTypes.md) — `struct` vs `class`, value semantics vs reference semantics
-- [ARC and Memory Management](../../Swift/ARC.md) — ARC, retain cycles
-- [Protocol-Oriented Programming](../../Swift/Protocols.md)
-- [Generics](../../Swift/Generics.md)
-- [Error Handling](../../Swift/ErrorHandling.md)
-- [Access Control](../../Swift/AccessControl.md)
-- [Opaque Types](../../Swift/OpaqueTypes.md) — `any` vs `some`
+- [x][Value Types and Reference Types](../../Swift/ValueTypes.md) — `struct` vs `class`, value semantics vs reference semantics
+- [x][ARC and Memory Management](../../Swift/ARC.md) — ARC, retain cycles
+- [][Protocol-Oriented Programming](../../Swift/Protocols.md)
+- [][Generics](../../Swift/Generics.md)
+- [][Error Handling](../../Swift/ErrorHandling.md)
+- [][Access Control](../../Swift/AccessControl.md)
+- [][Opaque Types](../../Swift/OpaqueTypes.md) — `any` vs `some`
 
 ## Practice Questions
 

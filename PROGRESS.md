@@ -8,8 +8,8 @@ Track your review progress day by day. Check a box once you can explain the topi
 
 ## Day 1 — Swift Core
 
-- [ ] [Value Types](./Swift/ValueTypes.md)
-- [ ] [ARC and Memory Management](./Swift/ARC.md)
+- [x] [Value Types](./Swift/ValueTypes.md)
+- [x] [ARC and Memory Management](./Swift/ARC.md)
 - [ ] [Protocols](./Swift/Protocols.md)
 - [ ] [Generics](./Swift/Generics.md)
 - [ ] [Opaque Types](./Swift/OpaqueTypes.md)

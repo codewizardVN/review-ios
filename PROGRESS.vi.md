@@ -8,8 +8,8 @@ Theo dõi tiến độ ôn tập từng ngày. Tick vào ô khi bạn có thể 
 
 ## Ngày 1 — Swift Core
 
-- [ ] [Value Types](./Swift/ValueTypes.vi.md)
-- [ ] [ARC và Memory Management](./Swift/ARC.vi.md)
+- [x] [Value Types](./Swift/ValueTypes.vi.md)
+- [x] [ARC và Memory Management](./Swift/ARC.vi.md)
 - [ ] [Protocols](./Swift/Protocols.vi.md)
 - [ ] [Generics](./Swift/Generics.vi.md)
 - [ ] [Opaque Types](./Swift/OpaqueTypes.vi.md)
